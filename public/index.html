@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
+			<meta name="theme-color" content="#000000">
+			<meta content="IE=Edge" http-equiv="X-UA-Compatible">
+			<title>VK Mini App Boilerplate</title>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous"></script>
+	</head>
+	<body>
+			<div id="root"></div>
+			<script>
+				let fun = function(){
+					$("#setTime").mask("99.99 99.99.9999", {placeholder: "чч.мм дд.мм.гггг"});
+				}
+				$(document).ready(fun);
+				$(document).change(fun);
+			</script>
+	</body>
+</html>
