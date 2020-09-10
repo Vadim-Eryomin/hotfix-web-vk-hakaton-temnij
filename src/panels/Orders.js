@@ -143,7 +143,7 @@ const Orders = ({ order, orderStatuses, foodAreas, setFinishedOrder, setActiveOr
 Orders.defaultProps = {
   setFinishedOrder: () => {},
   setActiveOrder: () => {},
-  setCanceledOrder: () => {},
+  setCanceledOrder: () => {}
 };
 
 export default Orders;
